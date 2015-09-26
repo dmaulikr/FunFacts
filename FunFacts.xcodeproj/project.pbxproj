@@ -12,6 +12,8 @@
 		170E8AAB1BB60F3300A37FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170E8AA91BB60F3300A37FD3 /* Main.storyboard */; };
 		170E8AAD1BB60F3300A37FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170E8AAC1BB60F3300A37FD3 /* Assets.xcassets */; };
 		170E8AB01BB60F3300A37FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170E8AAE1BB60F3300A37FD3 /* LaunchScreen.storyboard */; };
+		17E85DD11BB640F9009949D2 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E85DD01BB640F9009949D2 /* FactBook.swift */; settings = {ASSET_TAGS = (); }; };
+		17E85DD31BB669E8009949D2 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E85DD21BB669E8009949D2 /* ColorWheel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		170E8AAC1BB60F3300A37FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		170E8AAF1BB60F3300A37FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		170E8AB11BB60F3300A37FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E85DD01BB640F9009949D2 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		17E85DD21BB669E8009949D2 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		170E8AA41BB60F3300A37FD3 /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				17E85DD01BB640F9009949D2 /* FactBook.swift */,
 				170E8AA51BB60F3300A37FD3 /* AppDelegate.swift */,
 				170E8AA71BB60F3300A37FD3 /* ViewController.swift */,
 				170E8AA91BB60F3300A37FD3 /* Main.storyboard */,
 				170E8AAC1BB60F3300A37FD3 /* Assets.xcassets */,
 				170E8AAE1BB60F3300A37FD3 /* LaunchScreen.storyboard */,
 				170E8AB11BB60F3300A37FD3 /* Info.plist */,
+				17E85DD21BB669E8009949D2 /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E85DD11BB640F9009949D2 /* FactBook.swift in Sources */,
 				170E8AA81BB60F3300A37FD3 /* ViewController.swift in Sources */,
 				170E8AA61BB60F3300A37FD3 /* AppDelegate.swift in Sources */,
+				17E85DD31BB669E8009949D2 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				170E8AB61BB60F3300A37FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
